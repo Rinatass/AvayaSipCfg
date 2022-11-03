@@ -1,5 +1,5 @@
 import os
-IgnoreList = ['cfg.py', 'create.py']
+IgnoreList = ['README.txt', 'cfg.py', 'create.py']
 AllFiles =  os.listdir()
 print('Какие значения подлежат замене для всех файлов:')
 replace = input()
